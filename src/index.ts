@@ -6,7 +6,7 @@ var connector: WebRtcConnector;
 var currentId = 0;
 
 function main() {
-    connector = new WebRtcConnector("http://localhost:1337");
+    connector = new WebRtcConnector("https://enc-webrtc-signaling-app.azurewebsites.net");
     connector.receivedNegotiatedConnection.addEventListener((rtc) => {
         var dataChannel = rtc.createDataChannel("data");
         createChat(dataChannel);
