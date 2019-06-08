@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+div.app > div:last-child {
+  flex-grow: 1;
+  flex-shrink: 1;
+}

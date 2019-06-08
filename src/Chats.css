@@ -1,0 +1,21 @@
+.chats {
+  display: flex;
+}
+
+.chats-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+h2.chat-nav {
+  display: block;
+  font-size: 3em;
+  padding: 0.5em;
+  margin: 0;
+  background: linear-gradient(135deg, #adb78f 0%,#528463 56%,#005858 100%);
+}
+
+div.chats > div:last-child {
+  flex-grow: 1;
+  flex-shrink: 1;
+}

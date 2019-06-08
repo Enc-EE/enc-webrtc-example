@@ -1,0 +1,45 @@
+.howTo {
+  display: flex;
+  flex-direction: column;
+}
+
+.client1Buttons,
+.client2Buttons {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+}
+
+.client1Div,
+.client2Div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.client1Div {
+  background-color: rgb(175, 224, 224);
+}
+.client2Div {
+  flex-direction: row;
+  background-color: rgb(124, 160, 184);
+}
+
+@media only screen and (min-width: 450px) {
+  .client1Div {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .howTo {
+    flex-direction: row;
+  }
+
+  div.howTo > div {
+    flex-grow: 1;
+  }
+}

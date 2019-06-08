@@ -1,0 +1,16 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.messages{
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 1em;
+  background: linear-gradient(135deg, #ffeffb 0%,#ffede5 56%,#fffed9 100%);
+}
+
+.message{
+  display: block;
+  color: rgb(0, 83, 83);
+}
