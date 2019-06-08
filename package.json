@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/Enc-EE/webpack-typescript-seed/issues"
   },
-  "homepage": "https://github.com/Enc-EE/webpack-typescript-seed#readme",
   "eslintConfig": {
     "extends": "react-app"
   },
